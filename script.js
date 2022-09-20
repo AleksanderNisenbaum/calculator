@@ -85,7 +85,5 @@ res.onclick = function (){
 
     console.log(total, firstNumber, mathAction, secondNumber);
 
-    // let resultInput = document.getElementById("result");
-    // resultInput.setAttribute("value", total);
     resultInput.value = total;
 }
