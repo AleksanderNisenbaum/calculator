@@ -39,7 +39,7 @@ function func(valueButton){
         else{secondNumber += valueButton}
         resultInput.value = (firstNumber + ' ' + mathAction + ' ' + secondNumber);
     }
-    console.log(firstNumber, mathAction, secondNumber);
+    // console.log(firstNumber, mathAction, secondNumber);
 
 }
 input0.onclick = function (){func('0')};
@@ -85,7 +85,5 @@ res.onclick = function (){
 
     console.log(total, firstNumber, mathAction, secondNumber);
 
-    // let resultInput = document.getElementById("result");
-    // resultInput.setAttribute("value", total);
     resultInput.value = total;
 }
