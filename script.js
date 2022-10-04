@@ -83,7 +83,7 @@ res.onclick = function (){
     secondNumber = '';
     mathAction = '';
 
-    console.log(total, firstNumber, mathAction, secondNumber);
+    // console.log(total, firstNumber, mathAction, secondNumber);
 
     resultInput.value = total;
 }
