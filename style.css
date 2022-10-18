@@ -3,10 +3,10 @@ body{
     font-size: 27px;
     color: white;
 }
-#container{
+.container{
     width: 400px;
     height: 450px;
-    background-color: aqua;
+    background-color: rgb(35, 198, 198);
     text-align: center;
     border-radius: 8px;
     padding-top: 30px;
@@ -20,23 +20,22 @@ div {
     border-radius: 8px;
     border: 1px solid aqua;
     line-height: 66px;
+    cursor: pointer;
 }
-#containerButtons {
+.containerButtons {
     display: flex;
     flex-wrap: wrap;
-    width: 280px;
-    background-color: aqua;
+    width: 272px;
     margin: 1px auto auto auto;
 
 }
-#result {
+.result {
     width: 196px;
     height: 62px;
-    background-color: white;
     color: black;
     font-size: 22px;
 }
-#del{
+.del{
     background-color: red;
     color: white;
 }

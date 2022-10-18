@@ -28,6 +28,7 @@ input6.onclick = () => modifyExpression('6');
 input7.onclick = () => modifyExpression('7');
 input8.onclick = () => modifyExpression('8');
 input9.onclick = () => modifyExpression('9');
+
 sum.onclick = () => modifyExpression('+');
 minus.onclick = () => modifyExpression('-');
 multiple.onclick = () => modifyExpression('x');
