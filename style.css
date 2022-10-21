@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    color: white;
+}
+.container{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(35, 198, 198);
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 30px;
+}
+div {
+    height: 66px;
+    width: 66px;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid aqua;
+    line-height: 66px;
+    cursor: pointer;
+}
+.containerButtons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 272px;
+    margin: 1px auto auto auto;
+
+}
+.result {
+    width: 196px;
+    height: 62px;
+    color: black;
+    font-size: 22px;
+}
+.del{
+    background-color: red;
+    color: white;
+}
