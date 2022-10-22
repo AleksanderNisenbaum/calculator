@@ -6,7 +6,9 @@ let arrOfStack = [];
 let symbol = '';
 let action = '';
 let resSumMinus = []
+
 function math(num){
+
 
     if((Math.sign(num)) === 1){
         strOfNumbers+=num
@@ -76,6 +78,7 @@ function calc(array, string){
         sumMinus(arrOfStack)
     }
 }
+
 const elements = document.querySelectorAll("div")
 elements.forEach(element => {
     element.onclick = () => math(element.dataset.symbol)
